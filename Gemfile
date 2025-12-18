@@ -45,7 +45,7 @@ gem 'net-smtp',  '~> 0.3.4'
 gem 'csv-safe'
 
 ##-- for active storage --##
-gem 'aws-sdk-s3', require: false
+gem 'aws-sdk-s3', '>= 1.208.0', require: false
 # original gem isn't maintained actively
 # we wanted updated version of faraday which is a dependency for slack-ruby-client
 gem 'azure-storage-blob', git: 'https://github.com/chatwoot/azure-storage-ruby', branch: 'chatwoot', require: false
